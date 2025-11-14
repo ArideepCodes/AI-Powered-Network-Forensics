@@ -1,0 +1,144 @@
+You are Replit AI.
+Generate a complete, production-ready, multi-file project named:
+
+AI-Powered Network Packet Forensics Analyzer
+Created by Arideep Kanshabanik (India)
+
+📌 Important Instructions
+
+Create real files and real folders in the Replit filesystem.
+
+Do NOT just show code. Create the actual project structure.
+
+No placeholders. No pseudo code.
+
+Make sure the file tree is visible on the left.
+
+Everything should run without manual fixes.
+
+📦 Choose Project Type: Streamlit (Python) Version
+
+(Most beginners find this easiest; perfect for cyber forensics.)
+
+Build a Streamlit web app with these features:
+
+Upload .pcap files
+
+Live packet capture using Scapy
+
+Extract metadata: IP, Ports, Protocols, Flags, Payload size
+
+Machine Learning classifier for:
+
+Normal
+
+Port Scan
+
+DoS
+
+Malware traffic
+
+Suspicious anomaly
+
+AI analysis message per packet
+
+Graphs: protocol distribution, threat types, time spikes
+
+Forensic tools:
+
+WHOIS lookup
+
+GeoIP lookup
+
+DNS reverse lookup
+
+Export forensic report as PDF
+
+📁 REQUIRED PROJECT STRUCTURE (Replit must generate these files)
+
+Create these EXACT files:
+
+/
+├── app.py
+├── requirements.txt
+├── README.md
+├── utils/
+│   ├── packet_parser.py
+│   ├── ml_detector.py
+│   ├── geoip_tools.py
+│   ├── visualizer.py
+│   └── report_builder.py
+├── ai_model/
+│   └── model.pkl
+└── assets/
+    └── logo.png
+
+🧠 DETAILS FOR EACH FILE
+✔ app.py
+
+The main Streamlit app:
+
+Tabs: Dashboard, Real-Time Analysis, PCAP Upload, Forensic Tools
+
+Branding:
+
+Made by Arideep Kanshabanik
+
+Email: arideepkanshabanik@gmail.com
+
+GitHub: github.com/ArideepCodes
+
+Portfolio: arideep.framer.ai
+
+✔ utils/packet_parser.py
+
+Functions to parse packets using Scapy.
+
+✔ utils/ml_detector.py
+
+Load model.pkl
+Predict threat category.
+Return risk score + explanation.
+
+✔ utils/geoip_tools.py
+
+GeoIP lookup
+WHOIS lookup
+DNS reverse lookup.
+
+✔ utils/visualizer.py
+
+All charts using Matplotlib/Plotly.
+
+✔ utils/report_builder.py
+
+Generate PDF forensic report.
+
+✔ ai_model/model.pkl
+
+A working sklearn RandomForest model trained on synthetic features.
+
+✔ requirements.txt
+
+Must include:
+
+streamlit
+pandas
+numpy
+scapy
+matplotlib
+plotly
+requests
+whois
+pycountry
+reportlab
+scikit-learn
+
+🧪 AFTER GENERATION
+
+Run the app in Replit:
+
+streamlit run app.py
+
+
+It must open a working app.

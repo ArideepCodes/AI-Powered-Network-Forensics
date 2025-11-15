@@ -116,7 +116,7 @@ Each packet receives:
 - Risk score (0-100%)
 - Detailed AI-generated analysis message
 - Actionable security recommendations
-Can be Accessed at https://ai-powered-network-forensics.streamlit.app/
+- Can be Accessed at https://ai-powered-network-forensics.streamlit.app/
 
 ## 📧 Contact
 
